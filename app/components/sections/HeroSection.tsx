@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FiArrowRight, FiMail, FiGithub } from "react-icons/fi";
+import { FiArrowRight, FiMail, FiGithub, FiDownload } from "react-icons/fi";
 
 export default function HeroSection() {
   return (
@@ -236,6 +236,42 @@ export default function HeroSection() {
           >
             <FiGithub size={18} />
             GitHub
+          </a>
+
+
+          <a
+            href="https://drive.google.com/file/d/1hUja-aDitPSzgjlxptUAMGEGhSFNjkje/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download resume (Google Drive)"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              backgroundColor: "transparent",
+              color: "var(--text-muted)",
+              padding: "0.75rem 1rem",
+              borderRadius: "8px",
+              fontWeight: 500,
+              fontSize: "0.9375rem",
+              textDecoration: "none",
+              border: "1px solid var(--border)",
+              transition: "color 0.2s, border-color 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              (e.currentTarget as HTMLElement).style.color = "var(--text)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--accent)";
+            }}
+            onMouseLeave={(e) => {
+              (e.currentTarget as HTMLElement).style.color =
+                "var(--text-muted)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--border)";
+            }}
+          >
+            <FiDownload size={18} />
+            Resume
           </a>
         </motion.div>
       </div>

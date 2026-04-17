@@ -17,9 +17,32 @@ import {
   SiDocker,
   SiGit,
   SiGithubactions,
+  SiPython,
+  SiJavascript,
+  SiTypescript,
+  SiPhp,
+  SiCplusplus,
+  SiDart,
+  SiOpenjdk,
+
 } from "react-icons/si";
 
 const skillGroups = [
+  {
+    label: "Programming Languages",
+    color: "#06b6d4",
+    skills: [
+      { name: "Python", icon: SiPython },
+      { name: "JavaScript", icon: SiJavascript },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "PHP", icon: SiPhp },
+      { name: "C++", icon: SiCplusplus },
+      { name: "Dart", icon: SiDart },
+      { name: "Kotlin", icon: SiKotlin },
+      { name: "Java", icon: SiOpenjdk },
+
+    ],
+  },
   {
     label: "Mobile",
     color: "#06b6d4",

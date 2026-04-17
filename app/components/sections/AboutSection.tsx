@@ -85,12 +85,12 @@ export default function AboutSection() {
               marginTop: 0,
             }}
           >
-            At <strong style={{ color: "var(--text)" }}>Afroel Technology</strong>,
-            I built and shipped ride-hailing apps (driver + passenger) to both the{" "}
-            Play Store and App Store, implemented real-time tracking features, and
-            maintained production systems under real-world load.
+
+            I have experience developing real-world systems such as ride-hailing, e-commerce, and scooter rental platforms, with a focus on performance, real-time features, and user experience.
+
+            I am adaptable, quick to learn new technologies, and work effectively both independently and as part of a team. I focus on writing clean, maintainable code and delivering reliable, scalable solutions.
           </p>
-          <p
+          {/* <p
             style={{
               color: "var(--text-muted)",
               lineHeight: 1.8,
@@ -102,7 +102,7 @@ export default function AboutSection() {
             that scale. Whether it&apos;s a Flutter mobile app or a Node.js
             backend, I approach every project with the same rigor and attention
             to detail.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Right: highlight cards */}

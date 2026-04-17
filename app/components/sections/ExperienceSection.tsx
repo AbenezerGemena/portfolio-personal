@@ -7,6 +7,7 @@ import Section, { SectionHeading } from "../Section";
 const highlights = [
   "Built and shipped Utopia ETaxi passenger and driver apps to the Google Play Store and Apple App Store",
   "Built Ride sharing from scratch",
+  " Ozai Scooter rental mobile app enabling users to find nearby scooters, unlock via QR code, and manage rides in real time for convenient urban mobility.",
   "Implemented real-time GPS tracking, dynamic fare calculation, and push notification systems",
   "Diagnosed and resolved production issues, improving app crash rates and overall performance",
   "Collaborated with cross-functional teams to deliver features on schedule",
@@ -78,7 +79,7 @@ export default function ExperienceSection() {
                 margin: 0,
               }}
             >
-              Afroel Technology
+              Afroel Technology and  Ozone Technology
             </p>
           </div>
 
