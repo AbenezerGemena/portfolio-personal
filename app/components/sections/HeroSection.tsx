@@ -240,7 +240,7 @@ export default function HeroSection() {
 
 
           <a
-            href="https://drive.google.com/file/d/1hUja-aDitPSzgjlxptUAMGEGhSFNjkje/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-VdufC5MKZODbLmCpJbihFzauP6posQB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download resume (Google Drive)"
