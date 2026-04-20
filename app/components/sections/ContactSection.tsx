@@ -24,7 +24,7 @@ const contactLinks = [
     icon: FiLinkedin,
     label: "LinkedIn",
     value: "LinkedIn Profile",
-    href: "https://www.linkedin.com/in/jemmy-cheb-438861403",
+    href: "https://www.linkedin.com/in/abenezer-g-438861403",
     color: "#94a3b8",
   },
   {
